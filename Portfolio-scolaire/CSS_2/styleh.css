@@ -1,0 +1,31 @@
+/* Quand la taille de l'écran est inférieur à 1200px */
+
+html, body{
+	margin : 0; 
+	padding : 0;
+}
+
+body{
+	background-color: black;
+	color:white;
+}
+
+.menu-link,.prenom,.Atitle{
+	color:white;	
+}
+
+
+.footer-colonne h4{
+	color: #ffffff;
+
+}
+
+.footer-colonne ul li a{
+
+	color: #000000
+
+}
+
+h2,h3{
+	color: #ffffff;
+}

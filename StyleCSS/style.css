@@ -1,0 +1,1545 @@
+/* Polices d'écritures */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+
+
+body{
+
+	padding: 0px;;
+
+	margin : 0px;
+
+	font-family :'Lato';
+
+	background-color: #ffffff;
+
+}
+
+
+
+
+
+
+
+/* Navigation */
+
+
+
+a{
+
+	text-decoration: none;  /* Lien menu droite */
+
+	color: black;
+
+}
+
+
+
+a#name{
+
+	color: #FA983A;
+
+	border-bottom: 1px solid #fff;
+
+}
+
+
+
+a#name:hover{
+
+	color: #FA983A;
+
+	border-bottom-color: #FA983A;
+
+}
+
+
+
+
+
+nav{
+
+	top: 0px;
+
+	height: 65px;
+
+	display : flex;
+
+	flex-wrap : wrap;
+
+	justify-content : space-between;
+
+	align-items:  center;
+
+	background-color: white;
+
+	border-bottom: 2px solid #FA983A; 
+
+	position: sticky;  /* le header est fixe le long de la page (il reste en haut )*/
+
+	z-index: 1;
+
+}
+
+
+
+.profile {
+
+	margin-left: 6%;
+
+	display : flex;
+
+	align-items: center;
+
+
+
+}
+
+
+
+.profile img{
+
+	position: absolute;
+
+	width : 50px;
+
+	height : 50px;
+
+	border-radius : 50%;
+
+	top: 3px;
+
+}
+
+
+
+.profile .prenom{
+
+	margin-left : 65px;
+
+	color:#000000;
+
+	text-transform: uppercase;
+
+	font-family: 'Roboto';
+
+	font-weight: 700;
+
+	font-size: 27px;
+
+	letter-spacing:1px;
+
+	text-decoration: none;
+
+
+
+}
+
+
+
+nav ul{
+
+	margin-right: 6%;
+
+	display : flex;
+
+	list-style-type : none;
+
+	text-transform: uppercase;
+
+	font-family: 'Roboto';
+
+	font-weight: 400;
+
+	font-size: 15px;
+
+
+
+}
+
+
+
+nav ul li a{
+
+	margin-left : 25px;
+
+	cursor: pointer;
+
+	border-bottom: 1px solid #fff;
+
+}
+
+
+
+nav ul li a:hover{
+
+	border-bottom-color: #000;
+
+	/* color: #FA983A; */
+
+}
+
+
+
+
+
+/* header principal */
+
+
+
+.page-content header h1{
+
+	margin : 0; /** enlève les marge entre le texte et le titre**/
+
+	text-transform : uppercase;
+
+	font-family : 'Oswald', sans-serif;
+
+	font-size : 6vw; /* vw =view width donc elle prend 6 % de la largeur de la page vue par l'utilisateur */
+
+}
+
+
+
+header{
+
+	width: 100%;
+
+	height: 70vh;
+
+	position: relative;
+
+}
+
+
+
+
+
+.header_texture{
+
+	width: 100%;
+
+	height: 100%;
+
+	position: absolute;
+
+	top: 0;left:0;
+
+	background: url('../images/Image-principale-2.webp');
+
+	background-size: cover;
+
+	background-repeat:no-repeat;
+
+	background-position:center;
+
+	
+
+}
+
+
+
+.Aslogan{
+
+	margin: 0;
+
+	margin-top: 16%;
+
+	position: relative;
+
+	text-align: center;
+
+}
+
+.Atitle{
+
+	margin: 0;
+
+	color:#ffffff;
+
+	font-size: 55px;
+
+	font-family: 'Roboto';
+
+	font-weight: 400;
+
+	letter-spacing: 1px;
+
+	margin-bottom: 20px;
+
+}
+
+
+
+
+
+.Asloganbtn1{
+
+	color: #000;
+
+	text-transform: uppercase;
+
+	text-decoration: none;
+
+	padding: 10px 20px;
+
+	background: none;
+
+	border: 2px solid white;
+
+	margin-right:10px;
+
+	font-weight: 700;
+
+}
+
+
+
+.Asloganbtn1:hover{
+
+	background-color:#FA983A;
+
+	border: none;
+
+	color: white;
+
+	padding: 15px;
+
+	text-align: center;
+
+	text-decoration: none;
+
+	display: inline-block;
+
+	margin: 4px 2px;
+
+	border-radius: 0.25rem;
+
+}
+
+.Asloganbtn2{
+
+	background-color:#FA983A;
+
+	text-transform: uppercase;
+
+	border: none;
+
+	color: white;
+
+	padding: 15px;
+
+	text-align: center;
+
+	text-decoration: none;
+
+	display: inline-block;
+
+	margin: 4px 2px;
+
+	border-radius: 0.25rem;
+
+}
+
+
+
+.Asloganbtn2:hover{
+
+	background-color:white;
+
+	border: none;
+
+	color: black;
+
+	padding: 15px;
+
+	text-align: center;
+
+	text-decoration: none;
+
+	display: inline-block;
+
+	margin: 4px 2px;
+
+	border-radius: 0.25rem;
+
+}
+
+
+
+
+
+.page-content header p{
+
+	line-height : 30px; /** Espace entre chaque ligne modifier**/
+
+	color : #818181;
+
+}
+
+
+
+.page-content header button{
+
+	background-color : inherit;
+
+	border : none; /** Enelever les bordures du bouton**/
+
+	outline: none;
+
+	padding-left : 0; /** Enlever les marges du bouton **/
+
+	font-size : 15px;
+
+	font-weight : bold;
+
+	border-bottom : 1px solid #ccc;
+
+	cursor : pointer;
+
+}
+
+
+
+.page-content header button:hover{
+
+	color : #ccc;
+
+	border-bottom-color : #000;
+
+}
+
+
+
+.page-content .presentation-image{
+
+	margin-top : 5%;
+
+}
+
+.page-content .presentation-image{
+
+	max-width : 100%; /* Largeur à ne pas dépasser*/
+
+	height : auto;
+
+}
+
+
+
+/* Ma présentation */
+
+
+
+.presentation-moi h3{
+
+	text-align: center;
+
+	font-family: 'Roboto';
+
+	text-transform : uppercase;
+
+	font-size : 2vw;
+
+
+
+}
+
+.presentation-moi{
+
+	text-align: center;
+
+	margin-left: 20px;
+
+}
+
+
+
+
+
+
+
+.presentation-moi button{
+
+	text-transform : uppercase;
+
+	background-color:#FA983A;
+
+	border: none;
+
+	color: white;
+
+	padding: 10px;
+
+	text-align: center;
+
+	text-decoration: none;
+
+	display: inline-block;
+
+	margin: 4px 2px;
+
+	border-radius: 0.25rem;
+
+}
+
+
+
+.presentation-moi button:hover{
+
+	background-color:white;
+
+	color: black;
+
+	border: 2px solid #FA983A;
+
+}
+
+
+
+
+
+/* Compétences */
+
+
+
+.competence h3{
+
+	padding-top: 8%;
+
+	margin: 0;
+
+	text-align: center;
+
+	font-family: 'Roboto';
+
+	text-transform : uppercase;
+
+	font-size : 2vw;
+
+}
+
+.competence{
+
+	margin: 0;
+
+	text-align: center;
+
+	background-color: #636e72;
+
+	color: white;
+
+}
+
+
+.competence button{
+	
+
+	text-transform : uppercase;
+
+	background-color:#FA983A;
+
+	border: none;
+
+	color: white;
+
+	padding: 10px;
+
+	text-align: center;
+
+	text-decoration: none;
+
+	display: inline-block;
+
+	margin: 4px 2px;
+
+	border-radius: 0.25rem;
+
+	
+}
+
+
+
+
+
+
+
+/* Projects */
+
+
+
+.logo2 img{
+
+	width : 200px;
+
+	height : 200px;
+
+}
+
+.logo2{
+
+	text-align: center;
+
+	margin-bottom:3%;
+
+}
+
+
+
+.projects-section{
+
+	margin-top : 6%;
+
+
+
+}
+
+
+
+.projects-section h3{
+
+	margin: 0;
+
+	text-align: center;
+
+	font-family: 'Roboto';
+
+	text-transform : uppercase;
+
+	font-size : 3vw;
+
+	
+
+}
+
+.projects-section p{
+
+	text-align: center;
+
+	padding-bottom: 8%;
+
+	color: grey;
+
+
+
+}
+
+
+
+.projects-section .projects{
+
+	display : flex;  /* Si pas assez d'espace les éléments s'alignent de haut en bas */
+
+	flex-wrap : wrap;
+
+	margin-bottom: 40px;
+
+
+
+}
+
+
+
+.projet {
+
+	margin : auto;
+
+	margin-bottom: 30px;
+
+}
+
+
+
+.projet img{
+
+	position: relative;
+
+	margin: auto;
+
+	height: 150px;
+
+	width: 340px;
+
+}
+
+
+
+.projet .block{
+
+	
+
+	border: 1px solid black;
+
+	border-radius: 5%;
+
+	padding-top: 15px;
+
+	padding-right: 8px;
+
+	padding-left: 8px;
+
+	padding-bottom: 10px;
+
+
+
+}
+
+
+
+.projet h4{
+
+	margin: 0;
+
+	margin-top: 15px;
+
+	text-align :center;
+
+	font-size: 18px;
+
+	
+
+}
+
+
+
+.projet h4:hover{
+
+	color:#FA983A;
+
+	cursor: pointer;
+
+}
+
+
+
+.dates{
+
+	margin: 0;
+
+	margin-top: 5px;
+
+	font-size : 13px;
+
+	color : rgb(145,145,145);
+
+	text-align: center;
+
+	font-style: italic;
+
+} 
+
+
+
+
+
+/* Projects */
+
+
+
+
+
+/* POPUP */
+
+
+
+.overlay1{
+
+	position: fixed;
+
+	left: 0px;
+
+	top: 0px;
+
+	background-color: rgba(0,0,0,0.5);
+
+	width: 100%;
+
+	height: 100%;
+
+	display: none;
+
+}
+
+
+
+.popup1{
+
+	margin: 20% auto;
+
+	width: 70%;
+
+	background-color: #ffffff;
+
+	border-radius: 5px;
+
+	box-shadow: 15px 20px 0 rgba(0,0,0,0.5);
+
+	padding: 1em;
+
+}
+
+
+
+
+
+.overlay2{
+
+	position: fixed;
+
+	left: 0px;
+
+	top: 0px;
+
+	background-color: rgba(0,0,0,0.5);
+
+	width: 100%;
+
+	height: 100%;
+
+	display: none;
+
+}
+
+
+
+.popup2{
+
+	margin: 20% auto;
+
+	width: 70%;
+
+	background-color: #ffffff;
+
+	border-radius: 5px;
+
+	box-shadow: 15px 20px 0 rgba(0,0,0,0.5);
+
+	padding: 1em;
+
+}
+
+
+
+.overlay3{
+
+	position: fixed;
+
+	left: 0px;
+
+	top: 0px;
+
+	background-color: rgba(0,0,0,0.5);
+
+	width: 100%;
+
+	height: 100%;
+
+	display: none;
+
+}
+
+
+
+.popup3{
+
+	margin: 20% auto;
+
+	width: 70%;
+
+	background-color: #ffffff;
+
+	border-radius: 5px;
+
+	box-shadow: 15px 20px 0 rgba(0,0,0,0.5);
+
+	padding: 1em;
+
+}
+
+
+
+
+
+.btnClose1{
+
+	float: right;
+
+	cursor: pointer;
+
+}
+
+
+
+.btnClose2{
+
+	float: right;
+
+	cursor: pointer;
+
+}
+
+
+
+.btnClose3{
+
+	float: right;
+
+	cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Contact */
+
+
+.logoLinkedin{
+	float: right;
+	margin-bottom: 8%;
+	cursor: pointer;
+}
+.logogmail{
+	
+	float: right;
+	margin-bottom: 8%;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+
+.logo3 img{
+
+	width : 200px;
+
+	height : 200px;
+
+}
+
+.logo3{
+
+	text-align: center;
+
+	margin-bottom:3%;
+
+}
+
+
+
+form{
+
+	margin-left: 25%;
+
+	margin-right: 25%;
+
+	padding: 30px;
+
+	border: 1px solid black;
+
+	border-radius: 10px;
+
+}
+
+
+
+form .corps_formulaire{
+
+	margin-left: 13%;
+
+}
+
+
+
+.titre1 h3{
+
+	margin: 0;
+
+	text-align: center;
+
+	font-family: 'Roboto';
+
+	text-transform : uppercase;
+
+	font-size : 3vw;
+
+	margin-bottom: 8%;
+
+}
+
+
+
+
+
+.btn-form{
+
+	text-transform: uppercase;
+
+	background-color:#FA983A;
+
+	border: none;
+
+	color: white;
+
+	padding: 10px 20px;
+
+	text-align: center;
+
+	text-decoration: none;
+
+	display: inline-block;
+
+	margin: 4px 2px;
+
+	border-radius: 0.25rem;
+
+	cursor: pointer;
+
+}
+
+
+
+.btn-form:hover{
+
+	background-color:white;
+
+	color: black;
+
+	border: 2px solid #FA983A;
+
+}
+
+
+
+form .separation{
+
+	width: 100%;
+
+	height: 1px;
+
+	background-color: #FA983A;
+
+}
+
+
+
+form .corps_formulaire{
+
+	display: flex;
+
+	flex-wrap: wrap;
+
+	margin-bottom: 30px;
+
+}
+
+
+
+form .corps_formulaire .boite{
+
+	margin-top: 20px;
+
+	display: flex;
+
+	flex-direction: column;
+
+}
+
+
+
+form .corps_formulaire .left .boite input{
+
+	margin-top: 5px;
+
+	padding: 10px 5px 10px 6px;
+
+	border: 1px solid #c9c9c9;
+
+	outline-color: #FA983A;
+
+	border-radius: 5px;
+
+}
+
+
+
+form .corps_formulaire .right{
+
+	margin-left: 40px;
+
+}
+
+
+
+form .corps_formulaire .right .boite{
+
+	height: 100%;
+
+}
+
+
+
+form .corps_formulaire .right .boite textarea{
+
+	margin-top: 5px;
+
+	padding: 10px;
+
+	background-color: #f8f8f8;
+
+	border: 2px solid #FA983A;
+
+	outline: none;
+
+	border-radius: 5px;
+
+	resize: none;
+
+	height: 72%;
+
+}
+
+
+
+
+
+/* Contact */
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+
+
+
+
+.footer{
+
+	background-color: #000000;
+
+	padding:10px 0;
+
+
+
+}
+
+
+
+.footer-colonne{
+
+	padding: 0 15px;
+
+	text-align: center;
+
+
+
+}
+
+
+
+.footer-colonne h4{
+
+	top: 5px;
+
+	font-size: 18px;
+
+	color: #ffffff;
+
+	text-transform: capitalize;
+
+	/* margin-bottom: 30px; */
+
+	font-weight: 700;
+
+	position: relative;
+
+	margin: 0;
+
+	text-align: center;
+
+	margin-bottom: 5px;
+
+}
+
+
+
+.footer-colonne ul li a{
+
+	text-align:center;
+
+	font-size: 16px;
+
+	text-decoration: none;
+
+	font-weight: 300;
+
+	color: #bbbbbb;
+
+	transition: all 0.3s ease;
+
+}
+
+
+
+.footer-colonne ul li a:hover{
+
+	color: #FA983A;
+
+	padding-left: 8px;
+
+}
+
+
+
+
+
+
+
+
+
+/* Format Mobile */
+
+
+
+.nav_responsive{
+
+	width: 40px;
+
+	height: 60px;
+
+	display: flex;
+
+	align-items: center;
+
+	display: none;
+
+	margin-right: 10px;
+
+	cursor: pointer;
+
+	
+
+
+
+}
+
+.nav_icon, .nav_icon:before, .nav_icon:after{
+
+	content: "";
+
+	display: block;
+
+	width: 100%;
+
+	height: 3px;
+
+	border-radius: 5px;
+
+	background: #000000;
+
+	position: relative;
+
+	
+
+}
+
+
+
+.nav_icon:before{top: 10px;}
+
+.nav_icon:after{top: -14px;}
+
+
+
+
+
+
+
+@media screen and (max-width: 950px){
+
+
+
+	.test.is-open{
+
+		transform: translateY(0);
+
+	}
+
+
+
+	.test.is-close{
+
+		transform: translateY(-103%);
+
+	}
+
+
+
+	nav .profile{
+
+		float: left;
+
+		
+
+	}
+
+
+
+	.profile img{
+
+		top: 11px;
+
+	}
+
+	
+
+	.nav_responsive{
+
+		display: flex;
+
+		z-index: 1000;
+
+		
+
+		float: right;
+
+	}
+
+	
+
+	nav ul {
+
+		display: flex;
+
+		flex-wrap: wrap;
+
+	}
+
+	.test{
+
+		transition: all 0.3s ease-in-out;;
+
+		padding: 0;
+
+		margin: 0;
+
+		transform: translateY(-103%);
+
+		display: flex;
+
+		flex-direction: column;
+
+		justify-content: center;
+
+		align-items: center;
+
+		position: absolute;
+
+		width: 100vw;
+
+		height: 100vh;
+
+		background: white;
+
+		top: 0;left: 0;
+
+	}
+
+
+
+	nav ul li{
+
+		margin: 20px 0;
+
+		font-size: 24px;
+
+	} 
+
+
+
+
+
+
+
+	.Atitle{
+
+		margin-top: 20%;
+
+		font-size: 35px;	
+
+	}
+
+
+
+	.Asloganbtn1, .Asloganbtn2{
+
+		padding: 8px 10px;	
+
+	}
+
+
+
+	.Asloganbtn1:hover, .Asloganbtn2:hover{
+
+		padding: 8px 10px;
+
+	}
+
+
+
+	header{
+
+		width: 100%;
+
+		height: 40vh;
+
+		position: relative;
+
+	}
+
+
+
+	.presentation-moi h3{
+
+		font-size: 18px;
+
+	}
+
+
+
+	.competence h3{
+
+		font-size: 18px;
+
+	}
+
+
+
+	
+
+	.competence table{
+
+		margin: 0;
+
+		margin: auto;
+
+		display: block;
+
+		height: 310px;
+
+		width: 300px;
+
+		font-size: 10px;
+
+		
+
+	}
+
+
+
+	.projects-section h3{
+
+		font-size: 18px;
+
+	}
+
+	.logo2 img{
+
+		width : 100px;
+
+		height : 100px;
+
+	}
+
+	
+
+
+
+	.section-contact h3{
+
+		font-size: 18px;
+
+		
+
+	}
+
+
+
+	.logo3 img{
+
+		width : 100px;
+
+		height : 100px;
+
+	}
+
+
+
+	form .corps_formulaire .right{
+
+		margin-left: 0px;
+
+	}
+
+	
+
+	form .corps_formulaire .right .boite textarea{
+
+		padding:10px 5px 10px 6px;
+
+	}
+
+	form .corps_formulaire{
+
+		margin-left: 7%;
+
+		margin-bottom: 45px;
+
+	}
+
+
+
+	form{
+
+		margin-left: 15%;
+
+		margin-right: 15%;
+
+		padding: 30px;
+
+		border: 1px solid black;
+
+		border-radius: 10px;
+
+	}
+
+	
+
+
+
+}
+
+
+
+
+
+/* Format Mobile */

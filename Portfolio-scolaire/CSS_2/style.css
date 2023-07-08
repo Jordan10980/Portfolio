@@ -1,0 +1,288 @@
+/* Police d'écriture  */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+html, body{
+	margin : 0; 
+	padding : 0;
+	font-family: 'Lato';
+	background-color:#ffffff;
+	}
+
+/* #idglobale{ */
+	/* min-width:1200px; */
+	/* max-width:1980px; */
+	/* height:auto; */
+	
+/* } */
+
+/* header */
+
+
+.logo {
+	position: absolute;
+	z-index: 999;
+	top: 9px;
+}
+
+#mlink_g{
+	margin-right: 15px;	
+}
+
+
+img{
+	width: 50px;
+	height: 50px;
+}
+
+.inner{
+	width: 88%;
+	margin: auto;
+	position: relative;
+	z-index: 999;
+}
+
+.menu{
+	background: #37474F;
+	width: 100%;
+	height: 66px;
+	line-height: 66px;
+}
+
+.menu-g{
+	float: left;
+}
+
+.menu-d{
+	float: right;
+}
+
+.prenom{
+	margin-left: 60px;
+	color:#ffffff;
+	text-transform: uppercase;
+	font-family: 'Roboto';
+	font-weight: 700;
+	font-size: 27px;
+	letter-spacing:1px;
+	text-decoration: none;
+}
+
+.menu-link{
+	text-decoration: none;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 0;
+	margin: 0 15px;	
+}
+.menu-link:hover{
+	color: #FA983A;
+}
+
+.Aslogan{
+	margin-top:200px;
+	position:relative;
+	text-align: center;
+    z-index: 999;
+}
+
+
+
+header{
+	height: 450px;
+	width: 100%;
+	background: #37474F;
+	position: relative;
+}
+
+.header_texture{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;left:0;
+	background: url('../images/Image principale 2.jpg');
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size: cover;
+	z-index:1;
+	opacity:0.5;
+}
+.Atitle{
+	color:#ffffff;
+	font-size: 45px;	
+	font-family: 'Roboto';
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+
+.Asloganbtn2{	
+	background-color:#FA983A;
+	border: none;
+	color: white;
+	padding: 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 4px 2px;
+	border-radius: 0.25rem;	
+}
+
+.Asloganbtn1{
+	color: #FA983A;
+	text-decoration: none;
+	padding: 10px 20px;
+	background: none;
+	border: 2px solid black;
+	margin-right:10px;
+	font-weight: 700;
+}
+.Asloganbtn2:hover{	
+	background-color:white;
+	border: none;
+	color: black;
+	padding: 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 4px 2px;
+	border-radius: 0.25rem;	
+}
+
+.Asloganbtn1:hover{
+	background-color:#FA983A;
+	border: none;
+	color: white;
+	padding: 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 4px 2px;
+	border-radius: 0.25rem;	
+}
+
+/* Sous-menu */
+
+ul{
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
+.menu li{
+	
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+}
+
+.s_menu{
+	display:none;
+}
+	
+.menu li:hover .s_menu{
+	margin: 0px 0px;
+	padding: 0px 0px;
+	text-align:center;
+	border: 1px solid black;
+	background-color:#000000;
+	color:#ffffff;
+	display:block;
+	position: absolute;
+	width: 100px;
+}
+.s_menu li{
+	display: block;
+}
+
+
+
+
+/* Article */
+
+.A1,.A2,.A3{
+	margin: auto;
+	border: 2px solid black;
+	text-align: center;
+	margin-left: 1em;
+	padding-right: 1em;
+	border-bottom-color: #FA983A;
+	border-top-left-radius: 80px 80px;
+	
+
+}
+h2{
+	color:#000000;
+	font-family: 'Roboto';
+	font-weight: 400;
+	
+}
+
+
+/* footer */
+
+.container{
+	max-width: 1000px;
+	margin: auto;
+}
+
+.colonne{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ul{
+	list-style: none;
+}
+
+.footer{
+	background-color: #636e72;
+	padding:30px 0;
+	
+}
+
+
+.footer-colonne{
+	width: 47%;
+	padding: 0 15px;
+	text-align: center;
+}
+.footer-colonne h4{
+	font-size: 18px;
+	color: #000000;
+	text-transform: capitalize;
+	margin-bottom: 30px;
+	font-weight: 700;
+	position: relative;
+}
+
+.footer-colonne h4::before{
+	
+	content:'';
+	position: absolute;
+	left:60px;
+	bottom: -10px;
+	background-color: #FA983A;
+	height: 2px;
+	box-sizing: border-box;
+	width: 60px;
+}
+
+.footer-colonne ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+
+.footer-colonne ul li a{
+	font-size: 16px;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.footer-colonne ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;}
+
+

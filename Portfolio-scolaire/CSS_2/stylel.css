@@ -1,0 +1,12 @@
+/* Quand taille d'écran est inférieur à 1200px */
+
+
+html, body{
+	margin : 0; 
+	padding : 0;
+	
+}
+h2,h3{
+	color: #FA983A;
+}
+
